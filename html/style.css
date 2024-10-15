@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
+
+body {
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	user-select: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+input,
+button {
+	border: none;
+	outline: inherit;
+}
+
+#actionmenu {
+	display: none;
+}
+
+#balk {
+	position: absolute;
+	height: 5%;
+	width: 90%;
+	left: 5%;
+	bottom: 10%;
+	background-color: black;
+}
+
+#distance {
+	position: absolute;
+	font-size: 4vh;
+	bottom: 10%;
+	left: 0.1%;
+	text-align: left;
+}
+
+#currentTime {
+	position: absolute;
+	font-size: 4vh;
+	bottom: 10%;
+	left: 45%;
+	text-align: left;
+}
+
+#brand-name {
+	position: absolute;
+	font-size: 4vh;
+	bottom: 10%;
+	right: 5%;
+	text-align: right;
+}
+
+#average-speed {
+	position: absolute;
+	font-size: 4vh;
+	bottom: 16%;
+	left: 5%;
+	text-align: left;
+}
+
+#text-left-bottom {
+	position: absolute;
+	font-size: 4vh;
+	bottom: 21%;
+	left: 5%;
+	text-align: left;
+}
+
+#text-left-top {
+	position: absolute;
+	font-size: 4vh;
+	bottom: 26%;
+	left: 5%;
+	text-align: left;
+}
+
+#own-speed {
+	position: absolute;
+	font-size: 4vh;
+	bottom: 16%;
+	right: 5%;
+	text-align: right;
+}
+
+#text-right-bottom {
+	position: absolute;
+	font-size: 4vh;
+	bottom: 21%;
+	right: 5%;
+	text-align: right;
+}
+
+#text-right-top {
+	position: absolute;
+	font-size: 4vh;
+	bottom: 26%;
+	right: 5%;
+	text-align: right;
+}
+
+#blockright {
+	position: absolute;
+	height: 7.5%;
+	width: 10%;
+	right: 5%;
+	top: 10%;
+	background-color: black;
+}
+
+#time {
+	position: absolute;
+	font-size: 3vh;
+	top: 10%;
+	right: 5.5%;
+	text-align: right;
+}
+
+#date {
+	position: absolute;
+	font-size: 3vh;
+	top: 13.75%;
+	right: 5.5%;
+	text-align: right;
+}
